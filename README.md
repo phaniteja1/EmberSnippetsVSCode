@@ -65,7 +65,7 @@ All the snippets are indented as per ESLint
 ### Import
 | Trigger  | Content |
 | -------: | ------- |
-| `imp`  | computed property watching one property `computedPropertyName: computed('propertyToBeWatched', { get() {} })` |
+| `imp`  | computed property watching one property `computedProperty: computed('property', { get() {} })` |
 
 ### Super
 | Trigger  | Content |
