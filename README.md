@@ -1,5 +1,4 @@
-# JavaScript
-## VS Code JavaScript (ES6) snippets
+# Ember JS (ES6) Snippets for Visual Studio Code
 -------------------
 
 [![Version](http://vsmarketplacebadge.apphb.com/version/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
@@ -8,7 +7,7 @@
 
 This extension contains Ember JS (ES6 syntax) for [Vs Code][code] editor.
 
-### Coming Soon
+## Coming Soon
 Handlebar templates for Ember JS. I am super excited about this update as they've increased my productivity greatly!
 
 ## Installation
