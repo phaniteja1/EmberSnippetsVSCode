@@ -1,0 +1,234 @@
+{
+/**
+*		Ember ES6 snippets
+**/
+	"consoleLog": {
+		"prefix": "clg",
+		"body": [
+			"console.log(${1:object});"
+		],
+		"description": "console.log(object)"
+	},
+
+	"consoleLogWithTwoParams": {
+		"prefix": "clg2",
+		"body": [
+			"console.log('${1:tag}', ${2:value});"
+		],
+		"description": "console.log('tag', value)"
+	},
+
+	// Get and Set
+
+	"getThisObject": {
+		"prefix": "tgt",
+		"body": [
+			"this.get('${1:object}')"
+		],
+		"description": "this.get(object)"
+	},
+
+	"setThisObject": {
+		"prefix": "tst",
+		"body": [
+			"this.set('${1:tag}', ${2:object});"
+		],
+		"description": "this.set('tag', object)"
+	},
+
+	"getController": {
+		"prefix": "cgt",
+		"body": [
+			"controller.get('${1:object}');"
+		],
+		"description": "controller.get(object)"
+	},
+
+	"setController": {
+		"prefix": "cst",
+		"body": [
+			"controller.set('${1:tag}', ${2:object});"
+		],
+		"description": "controller.set('tag', object)"
+	},
+
+	"getThisController": {
+		"prefix": "tcgt",
+		"body": [
+			"this.controller.get('${1:object}');"
+		],
+		"description": "this.controller.get(object)"
+	},
+
+	"setThisController": {
+		"prefix": "tcst",
+		"body": [
+			"this.controller.set('${1:object}', ${2:object});"
+		],
+		"description": "this.controller.set(object)"
+	},
+
+	// Functions	
+
+	"functionNoParams": {
+		"prefix": "func",
+		"body": [
+			"${1:functionName}() {",
+			"\t${2}",
+			"}"
+		],
+		"description": "Function with no parameters"
+	},
+
+	"functionOneParam": {
+		"prefix": "func1",
+		"body": [
+			"${1:functionName}(${2:param}) {",
+			"\t${3}",
+			"}"
+		],
+		"description": "Function with one parameter"
+	},
+
+	"functionTwoParams": {
+		"prefix": "func2",
+		"body": [
+			"${1:functionName}(${2:param1}, ${3:param2}) {",
+			"\t${4}",
+			"}"
+		],
+		"description": "Function with two parameters"
+	},
+
+	"functionThreeParams": {
+		"prefix": "func3",
+		"body": [
+			"${1:functionName}(${2:param1}, ${3:param2}, ${4:param3}) {",
+			"\t${5}",
+			"}"
+		],
+		"description": "Function with three parameters"
+	},
+
+	// Service
+
+	"serviceDestructuring": {
+		"prefix": "serv",
+		"body": [
+			"${1:serviceName}: service('${2:serviceSlug}'),"
+		],
+		"description": "Destructuring a service"
+	},
+
+	// Super
+
+	"serviceDeclaration": {
+		"prefix": "sup",
+		"body": [
+			"this._super(...arguments);"
+		],
+		"description": "this._super(...arguments);"
+	},
+
+	// Import
+
+	"import": {
+		"prefix": "imp",
+		"body": [
+			"import ${1:name} from ${2:path};"
+		],
+		"description": "import anything"
+	},
+
+	// Computed Property
+
+	"computedPropertyOneProperty": {
+		"prefix": "comp",
+		"body": [
+			"${1:computedPropertyName}: computed('${2:propertyToBeWatched}', {",
+			"\tget(){",
+			"\t\t${3}",
+			"\t}",
+			"})"
+		],
+		"description": "Computed Property watching one property"
+	},
+
+	// Component Lifecycle Hooks
+	"componentLifeCycleHook": {
+		"prefix": "chook",
+		"body": [
+			"${1:hookName}() {",
+			"\tthis._super(...arguments);",
+			"\t${2}",
+			"},"
+		],
+		"description": "Component Generic Lifecycle Hook"
+	},
+
+	"componentInitHook": {
+		"prefix": "cinit",
+		"body": [
+			"init() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component Init Hook"
+	},
+
+	"componentDidReceiveAttrs": {
+		"prefix": "cdra",
+		"body": [
+			"didReceiveAttrs() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component didReceiveAttrs Hook"
+	},
+	
+	"componentDidRender": {
+		"prefix": "cdr",
+		"body": [
+			"didRender() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component didRender Hook"
+	},
+
+	"componentDidUpdateAttrs": {
+		"prefix": "cdua",
+		"body": [
+			"didUpdateAttrs() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component didUpdateAttrs Hook"
+	},
+
+	"componentDidInsertElement": {
+		"prefix": "cdie",
+		"body": [
+			"didInsertElement() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component didInsertElement Hook"
+	},
+
+	"componentWillDestroyElement": {
+		"prefix": "cwde",
+		"body": [
+			"willDestroyElement() {",
+			"\tthis._super(...arguments);",
+			"\t${1}",
+			"},"
+		],
+		"description": "Component willDestroyElement Hook"
+	}
+}
