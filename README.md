@@ -42,10 +42,10 @@ All the snippets are indented as per ESLint
 ### Functions
 | Trigger  | Content |
 | -------: | ------- |
-| `func`   | function with no params `functionName() {}` |
-| `func1`  | function with 1 param `functionName(param) {}` |
-| `func2`  | function with 2 params `functionName(param1, param2) {}` |
-| `func3`  | function with 3 params `functionName(param1, param2, param3) {}` |
+| `func→`   | function with no params `functionName() {}` |
+| `func1→`  | function with 1 param `functionName(param) {}` |
+| `func2→`  | function with 2 params `functionName(param1, param2) {}` |
+| `func3→`  | function with 3 params `functionName(param1, param2, param3) {}` |
 
 ### Service
 | Trigger  | Content |
@@ -60,28 +60,23 @@ All the snippets are indented as per ESLint
 ### Super
 | Trigger  | Content |
 | -------: | ------- |
-| `sup`  | super context `this._super(...arguments);` |
+| `sup→`  | super context `this._super(...arguments);` |
 
 ### Computed Property
 | Trigger  | Content |
 | -------: | ------- |
-| `comp`  | computed property with one property `computedProperty: computed('property', { get() {} })` |
-
-### Super
-| Trigger  | Content |
-| -------: | ------- |
-| `sup`  | super context `this._super(...arguments);` |
+| `comp→`  | computed property with one property `computedProperty: computed('property', { get() {} })` |
 
 ### Component Lifecycle Hooks
 | Trigger  | Content |
 | -------: | ------- |
-| `chook`  | component generic hook `hookName() { this._super(...arguments); }` |
-| `cinit`  | component init hook `init() { this._super(...arguments); }` |
-| `cdra`   | component didReceiveAttrs hook `didReceiveAttrs() { this._super(...arguments); }` |
-| `cdr`    | component didRender hook `didRender() { this._super(...arguments); }` |
-| `cdua`   | component didUpdateAttrs hook `didUpdateAttrs() { this._super(...arguments); }` |
-| `cdie`   | component didInsertElement hook `didInsertElement() { this._super(...arguments); }` |
-| `cwde`   | component willDestroyElement hook `willDestroyElement() { this._super(...arguments); }` |
+| `chook→`  | component generic hook `hookName() { this._super(...arguments); }` |
+| `cinit→`  | component init hook `init() { this._super(...arguments); }` |
+| `cdra→`   | component didReceiveAttrs hook `didReceiveAttrs() { this._super(...arguments); }` |
+| `cdr→`    | component didRender hook `didRender() { this._super(...arguments); }` |
+| `cdua→`   | component didUpdateAttrs hook `didUpdateAttrs() { this._super(...arguments); }` |
+| `cdie→`   | component didInsertElement hook `didInsertElement() { this._super(...arguments); }` |
+| `cwde→`   | component willDestroyElement hook `willDestroyElement() { this._super(...arguments); }` |
 
 ### Contribute
 More snippets or any modifications to the existing ones are welcome!
