@@ -4,10 +4,14 @@
     "description": "Snippets for Ember Javascript and Handlebars",
     "displayName": "Ember JS (ES6) and Handlebars code snippets",
     "icon": "images/ember.jpeg",
-    "version": "0.1.0",
-    "engines": { "vscode": "0.10.x" },
-    "categories": ["Snippets"],
-	"repository": {
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
         "type": "git",
         "url": "https://github.com/phaniteja1/EmberSnippetsVSCode.git"
     },
