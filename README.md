@@ -52,20 +52,20 @@ All the snippets are indented as per ESLint
 | -------: | ------- |
 | `serv→`  | destruncting a service `serviceName: service('serviceSlug')` |
 
-### Service
+### Import
 | Trigger  | Content |
 | -------: | ------- |
-| `serv→`  | destruncting a service `serviceName: service('serviceSlug'),` |
+| `imp→`  | import a module `import moduleName from 'module';` |
 
 ### Super
 | Trigger  | Content |
 | -------: | ------- |
 | `sup`  | super context `this._super(...arguments);` |
 
-### Import
+### Computed Property
 | Trigger  | Content |
 | -------: | ------- |
-| `imp`  | computed property watching one property `computedProperty: computed('property', { get() {} })` |
+| `comp`  | computed property with one property `computedProperty: computed('property', { get() {} })` |
 
 ### Super
 | Trigger  | Content |
