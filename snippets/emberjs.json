@@ -146,7 +146,7 @@
 		"prefix": "comp",
 		"body": [
 			"${1:computedPropertyName}: computed('${2:propertyToBeWatched}', {",
-			"\tget(){",
+			"\tget() {",
 			"\t\t${3}",
 			"\t}",
 			"})"
