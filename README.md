@@ -5,10 +5,10 @@
 [![Installs](http://vsmarketplacebadge.apphb.com/installs/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
 [![Ratings](http://vsmarketplacebadge.apphb.com/rating/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
 
-This extension contains Ember JS (ES6 syntax) for [Vs Code][code] editor.
+This extension contains Ember JS (ES6 syntax) and Handlebars snippets for [Vs Code][code] editor.
 
-## Coming Soon
-Handlebar templates for Ember JS. I am super excited about this update as they've increased my productivity greatly!
+## Version 2.0.0
+Contains Handlebars snippets for EmberJS
 
 ## Installation
 
@@ -18,9 +18,9 @@ There you have either the option to show the already installed snippets or insta
 ## Supported languages (file extensions)
 * JavaScript (.js)
 
-## Snippets
+## Javascript(ES6) Snippets for EmberJS
 
-Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
+Below is a list of all available javascript snippets and the triggers of each one. The **⇥** means the `TAB` key.
 All the snippets are indented as per ESLint
 
 ### Console Log Statements
@@ -77,6 +77,30 @@ All the snippets are indented as per ESLint
 | `cdua→`   | component didUpdateAttrs hook `didUpdateAttrs() { this._super(...arguments); }` |
 | `cdie→`   | component didInsertElement hook `didInsertElement() { this._super(...arguments); }` |
 | `cwde→`   | component willDestroyElement hook `willDestroyElement() { this._super(...arguments); }` |
+
+## Handlebars Snippets for EmberJS
+
+Below is a list of all available handlebars snippets and the triggers of each one. The **⇥** means the `TAB` key.
+
+| Trigger  | Content |
+| -------: | ------- |
+| `get→`   | get helper `{{get object "property"}}`|
+| `act→`   | action helper `{{action "action-name"}}` |
+| `act1→`  | action helper with one param `{{action "action-name" "param"}}` |
+| `log→`   | log a message to console {{log object}}}}` |
+| `input→` | input component `{{input value=value}}` |
+| `link→`  | link-to helper |
+| `if→`    | block if helper |
+| `inif→`  | inline if helper |
+| `un→`    | block unless helper |
+| `inun→`  | inline unless helper |
+| `ifel→`  | if else block helper |
+| `unel→`  | unless else block helper |
+| `ifelif→`| if else-if block helper |
+| `each→`  | each loop helper |
+| `eachx→` | each loop with index helper |
+| `eachin→`| each in loop helper to iterate through properties of a object |
+| `eachinel→`| each in loop with else helper |
 
 ### Contribute
 More snippets or any modifications to the existing ones are welcome!

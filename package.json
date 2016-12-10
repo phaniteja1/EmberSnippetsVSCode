@@ -4,7 +4,7 @@
     "description": "Snippets for Ember Javascript and Handlebars",
     "displayName": "Ember JS (ES6) and Handlebars code snippets",
     "icon": "images/ember.jpeg",
-    "version": "1.0.3",
+    "version": "2.1.0",
     "engines": {
         "vscode": "0.10.x"
     },
@@ -20,6 +20,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/emberjs.json"
+            },
+            {
+                "language": "handlebars",
+                "path": "./snippets/ember-hbs.json"
             }
         ]
     }
