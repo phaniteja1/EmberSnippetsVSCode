@@ -87,7 +87,7 @@ Below is a list of all available handlebars snippets and the triggers of each on
 | `get→`   | get helper `{{get object "property"}}`|
 | `act→`   | action helper `{{action "action-name"}}` |
 | `act1→`  | action helper with one param `{{action "action-name" "param"}}` |
-| `log→`   | log a message to console {{log object}}}}` |
+| `log→`   | log a message to console `{{log object}}}}` |
 | `input→` | input component `{{input value=value}}` |
 | `link→`  | link-to helper |
 | `if→`    | block if helper |
