@@ -4,7 +4,7 @@
     "description": "Snippets for Ember Javascript and Handlebars",
     "displayName": "Ember JS (ES6) and Handlebars code snippets",
     "icon": "images/ember.png",
-    "version": "2.1.2",
+    "version": "2.2.0",
     "engines": {
         "vscode": "0.10.x"
     },

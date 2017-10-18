@@ -39,7 +39,7 @@
 	"getController": {
 		"prefix": "cgt",
 		"body": [
-			"controller.get('${1:object}');"
+			"controller.get('${1:object}')"
 		],
 		"description": "controller.get(object)"
 	},
@@ -55,7 +55,7 @@
 	"getThisController": {
 		"prefix": "tcgt",
 		"body": [
-			"this.controller.get('${1:object}');"
+			"this.controller.get('${1:object}')"
 		],
 		"description": "this.controller.get(object)"
 	},
@@ -145,7 +145,7 @@
 	"computedPropertyOneProperty": {
 		"prefix": "comp",
 		"body": [
-			"${1:computedPropertyName}: computed('${2:propertyToBeWatched}', {",
+			"${1:computedPropertyName}: Ember.computed('${2:propertyToBeWatched}', {",
 			"\tget() {",
 			"\t\t${3}",
 			"\t}",
@@ -230,5 +230,60 @@
 			"},"
 		],
 		"description": "Component willDestroyElement Hook"
+	},
+
+	// Ember store commands
+	"storeInject": {
+		"prefix": "sinj",
+		"body": [
+			"store: inject.service(),"
+		],
+		"description": "Injecting the store"
+	},
+
+	"storeFindRecord": {
+		"prefix": "sfr",
+		"body": [
+			"this.get('store').findRecord(${1:model}, ${1:id});"
+		],
+		"description": "Retrieving a single record - findRecord"
+	},
+
+	"storePeekRecord": {
+		"prefix": "spr",
+		"body": [
+			"this.get('store').peekRecord(${1:model}, ${1:id});"
+		],
+		"description": "Peeking a single record - peekRecord"
+	},
+
+	"storeFindAll": {
+		"prefix": "sfa",
+		"body": [
+			"this.get('store').findAll(${1:model});"
+		],
+		"description": "Retrieving multiple records - findAll"
+	},
+
+	"storePeekAll": {
+		"prefix": "spa",
+		"body": [
+			"this.get('store').peekAll(${1:model});"
+		],
+		"description": "Peeking multiple records - peekAll"
+	},
+
+	"storeQueryAll": {
+		"prefix": "sqa",
+		"body": [
+			"this.get('store').query('${1:person}', {",
+			"\tfilter:{",
+			"\t\tname: '${2:Peter}'",
+			"\t}",
+			"}).then((${3:peters}) => {",
+			"\t${4: // do something with peters}",
+			"});"
+		],
+		"description": "Query multiple records - query"
 	}
 }

@@ -78,6 +78,16 @@ All the snippets are indented as per ESLint
 | `cdie→`   | component didInsertElement hook `didInsertElement() { this._super(...arguments); }` |
 | `cwde→`   | component willDestroyElement hook `willDestroyElement() { this._super(...arguments); }` |
 
+### Ember Store Commands
+| Trigger  | Content |
+| -------: | ------- |
+| `sinj→`  | inject store `store: inject.service()` |
+| `sfr→`  | store find record `this.get('store).findRecord(model, id)` |
+| `spr→`   | store peek record `this.get('store).peekRecord(model, id)` |
+| `sfa→`   | store find all `this.get('store).findAll(model)` |
+| `spa→`   | store peek all `this.get('store).peekAll(model)` |
+| `sqa→`   | store query and then |
+
 ## Handlebars Snippets for EmberJS
 
 Below is a list of all available handlebars snippets and the triggers of each one. The **⇥** means the `TAB` key.
