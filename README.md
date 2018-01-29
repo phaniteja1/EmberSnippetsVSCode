@@ -1,9 +1,9 @@
 # Ember JS (ES6) Snippets for Visual Studio Code
 -------------------
 
-[![Version](http://vsmarketplacebadge.apphb.com/version/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
-[![Ratings](http://vsmarketplacebadge.apphb.com/rating/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/phanitejakomaravolu.EmberES6Snippets.svg)](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
 
 This extension contains Ember JS (ES6 syntax) and Handlebars snippets for [Vs Code][code] editor.
 
