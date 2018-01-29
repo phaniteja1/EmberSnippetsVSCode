@@ -285,5 +285,78 @@
 			"});"
 		],
 		"description": "Query multiple records - query"
+	},
+
+	// importing modules
+	"importRunLoop": {
+		"prefix": "imp runloop",
+		"body": [
+			"import { ${1:module} } from '@ember/runloop';"
+		],
+		"description": "Import from runloop"
+	},
+
+	"importRsvp": {
+		"prefix": "imp rsvp",
+		"body": [
+			"import { ${1:module} } from '@ember/rsvp';"
+		],
+		"description": "Import from RSVP"
+	},
+
+	"importUtils": {
+		"prefix": "imp utils",
+		"body": [
+			"import { ${1:module} } from '@ember/utils';"
+		],
+		"description": "Import from utils"
+	},
+
+	"importTest": {
+		"prefix": "imp test",
+		"body": [
+			"import { ${1:module} } from '@ember/test';"
+		],
+		"description": "Import from test"
+	},
+
+	"importString": {
+		"prefix": "imp string",
+		"body": [
+			"import { ${1:module} } from '@ember/string';"
+		],
+		"description": "Import from string"
+	},
+
+	"importService": {
+		"prefix": "imp service",
+		"body": [
+			"import { service } from '@ember/service';"
+		],
+		"description": "Import from service"
+	},
+
+	"importObject": {
+		"prefix": "imp object",
+		"body": [
+			"import { ${1:module} } from '@ember/object';"
+		],
+		"description": "Import from object"
+	},
+
+	"importComputed": {
+		"prefix": "imp comp",
+		"body": [
+			"import { ${1:module} } from '@ember/object/computed';"
+		],
+		"description": "Import from computed"
+	},
+
+	"importArray": {
+		"prefix": "imp array",
+		"body": [
+			"import { ${1:module} } from '@ember/array';"
+		],
+		"description": "Import from array"
 	}
 }
