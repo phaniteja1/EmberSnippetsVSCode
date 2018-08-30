@@ -50,12 +50,20 @@ All the snippets are indented as per ESLint
 ### Service
 | Trigger  | Content |
 | -------: | ------- |
-| `serv→`  | destruncting a service `serviceName: service('serviceSlug')` |
+| `serv→`  | destructuring a service `serviceName: service('serviceSlug')` |
 
 ### Import
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`  | import a module `import moduleName from 'module';` |
+| `imp→`          | import a module `import moduleName from 'module';` |
+| `imp runloop→`  | import from runloop `import moduleName from '@ember/runloop';` |
+| `imp rsvp→`     | import from RSVP `import moduleName from '@ember/rsvp';` |
+| `imp utils→`    | import from utils `import moduleName from '@ember/utils';` |
+| `imp test→`     | import from test `import moduleName from '@ember/test';` |
+| `imp string→`   | import from string `import moduleName from '@ember/string';` |
+| `imp service→`  | import from service `import moduleName from '@ember/service';` |
+| `imp object→`   | import from object `import moduleName from '@ember/object';` |
+| `imp array→`    | import from array `import moduleName from '@ember/array';` |
 
 ### Super
 | Trigger  | Content |
