@@ -248,6 +248,14 @@
 		"description": "Component willDestroyElement Hook"
 	},
 
+	"debugger": {
+		"prefix": "dbg",
+		"body": [
+			"window.debugger;"
+		],
+		"description": "window.debugger"
+	},
+
 	// Ember store commands
 	"storeInject": {
 		"prefix": "sinj",
