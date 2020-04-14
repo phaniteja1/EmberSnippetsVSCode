@@ -10,12 +10,28 @@
 		"description": "console.log(object)"
 	},
 
+	"windowConsoleLog": {
+		"prefix": "wclg",
+		"body": [
+			"window.console.log(${1:object});"
+		],
+		"description": "window.console.log(object)"
+	},
+
 	"consoleLogWithTwoParams": {
 		"prefix": "clg2",
 		"body": [
 			"console.log('${1:tag}', ${2:value});"
 		],
 		"description": "console.log('tag', value)"
+	},
+
+	"windowConsoleLogWithTwoParams": {
+		"prefix": "wclg2",
+		"body": [
+			"window.console.log('${1:tag}', ${2:value});"
+		],
+		"description": "window.console.log('tag', value)"
 	},
 
 	// Get and Set
